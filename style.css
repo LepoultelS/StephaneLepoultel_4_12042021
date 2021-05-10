@@ -408,6 +408,9 @@ a:hover {
     display: block;
     padding: 14px 15px;
 }
+.navbar-logo {
+    height: 40px;
+}
 
 nav .caret {
     margin: 0 5px;
@@ -776,6 +779,7 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    position: relative;
 }
 
 .btn-atomic-tangerine {
@@ -887,6 +891,11 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+}
+.quote {
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
 }
 
 @media (max-width: 767px) {
